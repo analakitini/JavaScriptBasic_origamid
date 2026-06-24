@@ -1,13 +1,24 @@
-const nav = document.querySelector("nav");
-const produtos = document.querySelector(".produtos a");
-console.log(nav);
-console.log(produtos);
+/*Strings*/
 
-console.log(produtos.href);
+const text = "JavaScript";
+const frase = 'This is my "game"';
+console.log(text + " " + frase);
 
-console.dir(nav);
+/*Number*/
 
-nav.style.backgroundColor = "blue";
-nav.style.padding = "10px";
+let total = 0;
+const compras = 30;
+const imposto = 10;
 
-nav.classList.add("menu");
+total = compras + imposto;
+
+const dobro = total * 2;
+const dividir = total / 2;
+const desconto = total - 30;
+const strings = "20" + "20";
+const numbers = 20 + 20;
+
+const transformar = Number("20") + 20;
+
+console.log(numbers);
+console.log(transformar);
