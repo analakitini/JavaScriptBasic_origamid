@@ -34,3 +34,41 @@ const transformar = Number("20") + 20;
 
 console.log(numbers);
 console.log(transformar);
+
+/*Objects */
+
+const nome = "The Lord of the Rings";
+const ano = 1954;
+const autor = "J.R.R. Tolkien";
+
+const nomeFilme = "The Lord of the Rings";
+const anoFilme = 2001;
+const diretorFilme = "Peter Jackson";
+
+const livro = {
+  nome: "The Lord of the Rings",
+  ano: 1954,
+  autor: "J.R.R. Tolkien",
+  editora: "Allen & Unwin",
+};
+
+const filme = {
+  nome: "The Lord of the Rings",
+  ano: 2001,
+  autor: "J.R.R. Tolkien",
+  diretor: "Peter Jackson",
+};
+
+console.log(2022 - livro.ano);
+console.log(filme.nome + " " + filme.diretor);
+console.log(livro.nome === nome);
+
+const texto = document.querySelector("p");
+
+console.log(texto.clientHeight);
+console.log(autor.toLocaleUpperCase());
+console.log(autor.toLocaleLowerCase());
+const decimal = 122.99;
+
+console.log(decimal.toFixed()); /*String */
+console.log(3); /*Number */
