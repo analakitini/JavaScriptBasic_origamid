@@ -72,3 +72,29 @@ const decimal = 122.99;
 
 console.log(decimal.toFixed()); /*String */
 console.log(3); /*Number */
+
+/*function */
+
+function logCurso() {
+  const nome = "JavaScript";
+  console.log(nome);
+}
+
+logCurso();
+logCurso();
+logCurso();
+
+/* -------- */
+function logCurso1(nome, horas) {
+  console.log(nome, horas, "horas");
+  return nome;
+}
+
+logCurso1("JavaScript", "40");
+logCurso1("Python", "30");
+
+/* return */
+
+const retorno = logCurso1("Java", "50");
+
+console.log(retorno); /*undefined*/
