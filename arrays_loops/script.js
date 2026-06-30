@@ -15,7 +15,7 @@ for (let i = 0; i < 100; i++) {
 } */
 
 /* usando o length para percorrer a lista */
-
+/* 
 const lista = ["JavaScript", "hTML", "CSS", "PHP"];
 
 const body = document.querySelector("body");
@@ -23,3 +23,4 @@ const body = document.querySelector("body");
 for (let i = 0; i < lista.length; i++) {
   body.innerHTML += "<li>" + lista[i] + "</li>";
 }
+ */
